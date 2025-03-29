@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Top heading styling */
+
+header {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px; 
+}
+
+/* Top nav styling */
+
+.top-nav {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    float: right;
+}
+
+/* Top nav styling */
+
+.top-ul {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    list-style-type: none;
+    padding: 0; 
+    
+}
+
+/* Top nav styling */
+
+.top-ul li {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    display: inline-block; 
+   
+}
+
+
+
+/* Top nav styling */
+
+.top-ul a {
+    text-decoration: none;
+}
+
+h6 {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    width: 15%; 
+    
+}
+
+h1 {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    width: 15%; 
+}
+
+header p {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+}
+
+.personal-info-div {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px; 
+    width: 60%; 
+    float: left;
+}
+
+.personal-info-image {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px; 
+}
+
+.my-services-container {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px; 
+}
+
+.services {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px; 
+    width: 25%; 
+    display: inline-block; 
+}
+
+/* Latest News text styling */
+
+.resources-text-div {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px; 
+    float: left; 
+}
+
+.latest-news-image img {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px; 
+}
+
+/* My Works navigation styling*/
+
+.my-works-nav {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px; 
+    list-style-type: none;
+    padding: 0;
+}
+
+/* My Works navigation styling*/
+
+.my-works-nav li {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    display: inline-block; 
+}
+
+/* My Works image gallery styling */
+
+.my-works-container {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+}
+
+/* My Works image gallery styling */
+
+.my-works-container div {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+}
+
+/* My Works image gallery styling */
+
+.gallery {
+    display: inline-block; 
+}
+
+
+
+.contact-div {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    float: left;
+}
+
+.contact-image {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+}
+
+/* Sign Up form styling */
+
+.sign-up-text {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    display: inline-block; 
+    width: 25%; 
+    
+}
+
+/* Sign Up form styling */
+
+.form-div {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    display: inline-block; 
+    width: 25%; 
+}
+
+/* Footer styling */
+
+footer {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+}
+
+.description {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    width: 25%; 
+    display: inline-block; 
+}
+
+.quick-links {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    width: 25%; 
+    display: inline-block;
+}
+
+
+.address {
+    border: 3px solid black; /* TO BE DELETED */
+    margin: 5px;
+    width: 25%; 
+    display: inline-block;
+}
+
+
+
+
+
+
+/* TO BE DELETED */
