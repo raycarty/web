@@ -1,205 +1,254 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Top heading styling */
 
 header {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px; 
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  background-image: url(images/hero-bg.jpg);
+  background-size: 680px;
+  background-repeat: no-repeat;
+
+  
+}
+
+/* Logo styling on header */
+
+.logo-span {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 110px;
+  color: white;
 }
 
 /* Top nav styling */
 
 .top-nav {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    float: right;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  float: right;
+  padding-right: 60px;
+  margin-top: 20px;
 }
 
 /* Top nav styling */
 
 .top-ul {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    list-style-type: none;
-    padding: 0; 
-    
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  list-style-type: none;
+  padding: 0;
 }
 
 /* Top nav styling */
 
 .top-ul li {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    display: inline-block; 
-   
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 3px 8px;
+  border-radius: 2rem;
+  background-color: white;
 }
-
-
 
 /* Top nav styling */
 
 .top-ul a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
+/* Header styling H6 */
 
 h6 {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    width: 15%; 
-    
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  width: 15%;
+  margin-left: 60px;
+  margin-bottom: 25px;
+  font-size: 1rem;
+  color: white;
 }
+
+/* Header styling H1*/
 
 h1 {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    width: 15%; 
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  width: 15%;
+  margin-left: 60px;
+  margin-bottom: 25px;
+  color: white;
 }
+
+/* Header styling paragraph*/
 
 header p {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  margin-left: 60px;
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+  color: white;
 }
 
+/* Header buttons styling*/
+
+.my-works-button {
+  font-size: 1rem;
+  /* Margin: top, right, bottom, left */
+  margin: 0px 10px 25px 60px;
+  border-radius: 2rem;
+  padding: 10px 20px;
+}
+
+/* Header buttons styling*/
+
+.contact-button {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  border-radius: 2rem;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+/* Personal info section styling */
+
 .personal-info-div {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px; 
-    width: 60%; 
-    float: left;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  width: 60%;
+  float: left;
 }
 
 .personal-info-image {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px; 
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
 }
 
 .my-services-container {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px; 
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
 }
 
 .services {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px; 
-    width: 25%; 
-    display: inline-block; 
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  width: 25%;
+  display: inline-block;
 }
 
 /* Latest News text styling */
 
 .resources-text-div {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px; 
-    float: left; 
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  float: left;
 }
 
 .latest-news-image img {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px; 
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
 }
 
 /* My Works navigation styling*/
 
 .my-works-nav {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px; 
-    list-style-type: none;
-    padding: 0;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  list-style-type: none;
+  padding: 0;
 }
 
 /* My Works navigation styling*/
 
 .my-works-nav li {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    display: inline-block; 
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  display: inline-block;
 }
 
 /* My Works image gallery styling */
 
 .my-works-container {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
 }
 
 /* My Works image gallery styling */
 
 .my-works-container div {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
 }
 
 /* My Works image gallery styling */
 
 .gallery {
-    display: inline-block; 
+  display: inline-block;
 }
 
-
-
 .contact-div {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    float: left;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  float: left;
 }
 
 .contact-image {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
 }
 
 /* Sign Up form styling */
 
 .sign-up-text {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    display: inline-block; 
-    width: 25%; 
-    
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  display: inline-block;
+  width: 25%;
 }
 
 /* Sign Up form styling */
 
 .form-div {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    display: inline-block; 
-    width: 25%; 
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  display: inline-block;
+  width: 25%;
 }
 
 /* Footer styling */
 
 footer {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
 }
 
 .description {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    width: 25%; 
-    display: inline-block; 
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  width: 25%;
+  display: inline-block;
 }
 
 .quick-links {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    width: 25%; 
-    display: inline-block;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  width: 25%;
+  display: inline-block;
 }
-
 
 .address {
-    border: 3px solid black; /* TO BE DELETED */
-    margin: 5px;
-    width: 25%; 
-    display: inline-block;
+  border: 3px solid black; /* TO BE DELETED */
+  margin: 5px;
+  width: 25%;
+  display: inline-block;
 }
-
-
-
-
-
 
 /* TO BE DELETED */
